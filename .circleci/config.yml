@@ -76,7 +76,7 @@ jobs:
       - run:
           name: set eb variables
           command: |
-            eb setenv AWS_BUCKET=arn:aws:s3:::awsmybucket-mamdouh AWS_PROFILE=default AWS_REGION=us-east-1 JWT_SECRET=mysecretstring POSTGRES_DB=postgres POSTGRES_HOST=database-1.cv7igqzhozlx.us-east-1.rds.amazonaws.com POSTGRES_PASSWORD=postgres POSTGRES_USERNAME=postgres
+            npm run eb:variables
       - run:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
