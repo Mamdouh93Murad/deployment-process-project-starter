@@ -65,6 +65,18 @@ jobs:
           command: |
             echo "# TODO: Install, build, deploy in both apps"
             npm run deploy
+          enviornment:
+            AWS_ACCESS_KEY_ID: AKIAZM3EKE3QQGO3ZTRW
+            AWS_BUCKET: arn:aws:s3:::awsmybucket-mamdouh
+            AWS_DEFAULT_REGION: us-east-1
+            AWS_PROFILE: default
+            AWS_REGION: us-east-1
+            AWS_SECRET_ACCESS_KEY: gw12lYqKtEk8lsuiw8j2D2CWTnppx2FCv7pv1+br
+            JWT_SECRET: mysecretstring
+            POSTGRES_DB: postgres
+            POSTGRES_HOST: database-1.cv7igqzhozlx.us-east-1.rds.amazonaws.com
+            POSTGRES_PASSWORD: postgres
+            POSTGRES_USERNAME: postgres
             
 workflows:
   udagram:
