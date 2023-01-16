@@ -12,6 +12,6 @@
         "api:start": "cd udagram/udagram-api && npm run dev",
         "api:deploy": "cd udagram/udagram-api && npm run deploy",
         "deploy": "npm run api:deploy && npm run frontend:deploy",
-        "eb:variables": "eb setenv AWS_BUCKET=arn:aws:s3:::awsmybucket-mamdouh AWS_PROFILE=default AWS_REGION=us-east-1 JWT_SECRET=mysecretstring POSTGRES_DB=postgres POSTGRES_HOST=database-1.cv7igqzhozlx.us-east-1.rds.amazonaws.com POSTGRES_PASSWORD=postgres POSTGRES_USERNAME=postgres"
+        "eb:variables": "cd udagram/udagram-api && eb setenv AWS_BUCKET=arn:aws:s3:::awsmybucket-mamdouh AWS_PROFILE=default AWS_REGION=us-east-1 JWT_SECRET=mysecretstring POSTGRES_DB=postgres POSTGRES_HOST=database-1.cv7igqzhozlx.us-east-1.rds.amazonaws.com POSTGRES_PASSWORD=postgres POSTGRES_USERNAME=postgres"
     }
 }
