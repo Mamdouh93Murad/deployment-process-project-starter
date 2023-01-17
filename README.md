@@ -66,7 +66,7 @@ The e2e tests are using Protractor and Jasmine.
 ![Screenshot](https://github.com/Mamdouh93Murad/nd0067-c4-deployment-process-project-starter/blob/master/screenshots/Screenshot%20from%202023-01-15%2003-22-09.png)
 
 ### Back-End
-![Screenshot](https://github.com/Mamdouh93Murad/nd0067-c4-deployment-process-project-starter/blob/master/screenshots/Screenshot%20from%202023-01-15%2019-21-11.png)
+![Screenshot](https://github.com/Mamdouh93Murad/deployment-process-project-starter/blob/master/screenshots/Screenshot%20from%202023-01-15%2019-21-11.png)
 
 [S3-Link](http://myawsbucket-mamdouh.s3-website-us-east-1.amazonaws.com)
 
