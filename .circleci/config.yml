@@ -82,7 +82,7 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            echo 'POSTGRES_USER ${POSTGRES_USERNAME}'
+            echo "POSTGRES_USER ${POSTGRES_USERNAME}"
             npm run deploy
             
 workflows:
