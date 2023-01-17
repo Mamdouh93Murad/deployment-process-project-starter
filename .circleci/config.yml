@@ -19,6 +19,7 @@ jobs:
       - run:
           name: Install Front-End Dependencies
           command: |
+            echo "POSTGRES_USER ${POSTGRES_USERNAME}"
             echo "NODE --version" 
             echo $(node --version)
             echo "NPM --version" 
@@ -82,7 +83,7 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            echo "POSTGRES_USER ${POSTGRES_USERNAME}"
+            
             npm run deploy
             
 workflows:
